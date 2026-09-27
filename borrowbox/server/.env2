@@ -1,0 +1,15 @@
+PORT=5000
+
+# PostgreSQL connection
+PGHOST=localhost
+PGPORT=5432
+PGUSER=postgres
+PGPASSWORD=Yfzf5786%
+PGDATABASE=borrowbox
+
+# Auth
+JWT_SECRET=change_this_to_a_long_random_string
+JWT_EXPIRES_IN=7d
+
+# Frontend origin allowed by CORS
+CLIENT_ORIGIN=http://localhost:5173
